@@ -13,12 +13,13 @@ Description:	A file containing various utilities
 #define IGNORE_TAG "<\\?.*\\?>"
 #define TAG "^<.*>$"
 #define CLOSE_TAG "^</.*>$"
-#define CLOSE_TAG_NAME "</(\\w+)"
+#define CLOSE_TAG_NAME "</(\\w+)>"
 #define ONE_LINE_TAG "^<.+/>$"
 #define ONE_LINE_OPEN_CLOSE "(<.*>)(.+)(</.*>)"
-#define OPEN_TAG_NAME "<(\\w+)"
-#define ATTRIBUTE "\\w+\\s*=\\s*\\w"
-#define ATTR_SPLIT "(\\w+)\\s*=\\s*(\\w+)"
+#define OPEN_TAG_NAME "<(\\w+).*>"
+#define ATTRIBUTE "(\\w+\\s*=\\s*\"\\w+\")"
+#define ATTR_SPLIT "(\\w+)\\s*=\\s*\"(\\w+)\""
+#define WORD_SPLIT "\\s+(\\S+)\\s+"
 
 using namespace std;
 

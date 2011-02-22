@@ -40,7 +40,7 @@ vector<string> Util::split(string str, string pattern)
 
 	const sregex_token_iterator end;
 
-	for(sregex_token_iterator i(str.begin(), str.end(), splitReg); i != end; i++)
+	for(sregex_token_iterator i(str.begin(), str.end(), splitReg); i != end; ++i)
 	{
 		out.push_back(*i);
 	}
