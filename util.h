@@ -19,7 +19,7 @@ Description:	A file containing various utilities
 #define OPEN_TAG_NAME "<(\\w+).*>"
 #define ATTRIBUTE "(\\w+\\s*=\\s*\"\\w+\")"
 #define ATTR_SPLIT "(\\w+)\\s*=\\s*\"(\\w+)\""
-#define WORD_SPLIT "\\s+(\\S+)\\s+"
+#define WORD_SPLIT "(\\w+)"
 
 using namespace std;
 
