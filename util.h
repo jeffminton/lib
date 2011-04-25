@@ -51,7 +51,7 @@ public:
 	/**
 	Function:		split
 	Description:	return a vector containing all items in a string
-					that match a give regex
+					that match a given regex
 	Parameters:		string str - the string to split
 					string pattern - the regex patter to split on
 	Return:			vector<string> - vector containing items
